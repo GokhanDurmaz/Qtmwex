@@ -2,8 +2,8 @@ package com.qtmwex.demo.ui.base
 
 import android.os.Bundle
 import android.os.PersistableBundle
-import android.support.annotation.LayoutRes
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.LayoutRes
+import androidx.appcompat.app.AppCompatActivity
 
 /**
  * Created by gokhan on 12/13/20.
