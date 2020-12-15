@@ -12,6 +12,8 @@ import org.gradle.plugin.use.PluginDependencySpec
  * YOU are responsible for updating manually the dependency version.
  */
 object Versions {
+    const val androidx_room: String = "2.2.5"
+
     const val com_android_support_test_runner: String = "1.0.2"
 
     const val com_android_tools_build_gradle: String = "4.1.1"
