@@ -8,6 +8,16 @@ import kotlin.String
  */
 object Libs {
     /**
+     * https://developer.android.com/topic/libraries/architecture/index.html
+     */
+    const val room_compiler: String = "androidx.room:room-compiler:" + Versions.androidx_room
+
+    /**
+     * https://developer.android.com/topic/libraries/architecture/index.html
+     */
+    const val room_runtime: String = "androidx.room:room-runtime:" + Versions.androidx_room
+
+    /**
      * https://developer.android.com/testing
      */
     const val com_android_support_test_runner: String = "com.android.support.test:runner:" +
