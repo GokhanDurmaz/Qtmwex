@@ -12,11 +12,11 @@ interface AlbumDao {
     fun getAlbums(): AlbumData
 
     @Insert
-    fun insert(albumDao: AlbumDao)
+    fun insert(albumData: AlbumData)
 
     @Update
-    fun update(albumDao: AlbumDao)
+    fun update(albumData: AlbumData)
 
     @Delete
-    fun delete(albumDao: AlbumDao)
+    fun delete(albumData: AlbumData)
 }
