@@ -1,4 +1,4 @@
-package com.qtmwex.demo.data
+package com.qtmwex.demo.data.playlist
 
 import androidx.room.Entity
 
