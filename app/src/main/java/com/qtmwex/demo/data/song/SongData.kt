@@ -1,4 +1,4 @@
-package com.qtmwex.demo.data
+package com.qtmwex.demo.data.song
 
 import androidx.room.Entity
 
