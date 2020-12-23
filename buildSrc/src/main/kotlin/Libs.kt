@@ -8,6 +8,24 @@ import kotlin.String
  */
 object Libs {
     /**
+     * https://github.com/google/dagger
+     */
+    const val dagger_android_processor: String = "com.google.dagger:dagger-android-processor:" +
+            Versions.com_google_dagger
+
+    /**
+     * https://github.com/google/dagger
+     */
+    const val dagger_android_support: String = "com.google.dagger:dagger-android-support:" +
+            Versions.com_google_dagger
+
+    /**
+     * https://github.com/google/dagger
+     */
+    const val dagger_compiler: String = "com.google.dagger:dagger-compiler:" +
+            Versions.com_google_dagger
+
+    /**
      * https://developer.android.com/topic/libraries/architecture/index.html
      */
     const val room_compiler: String = "androidx.room:room-compiler:" + Versions.androidx_room

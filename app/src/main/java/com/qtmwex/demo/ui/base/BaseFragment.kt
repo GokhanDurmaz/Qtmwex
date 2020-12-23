@@ -6,12 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
+import dagger.android.support.DaggerFragment
 
 /**
  * Created by gokhan on 12/23/20.
  */
 
-abstract class BaseFragment : Fragment() {
+abstract class BaseFragment : DaggerFragment() {
 
     @LayoutRes
     abstract fun layoutRes(): Int

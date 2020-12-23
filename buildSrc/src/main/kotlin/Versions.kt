@@ -12,7 +12,9 @@ import org.gradle.plugin.use.PluginDependencySpec
  * YOU are responsible for updating manually the dependency version.
  */
 object Versions {
-    const val androidx_room: String = "2.2.5"
+    const val com_google_dagger: String = "2.30.1"
+
+    const val androidx_room: String = "2.2.5" // available: "2.2.6"
 
     const val com_android_support_test_runner: String = "1.0.2"
 

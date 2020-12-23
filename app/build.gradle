@@ -61,4 +61,9 @@ dependencies {
     //Room
     implementation Libs.room_runtime
     kapt Libs.room_compiler
+
+    //Dagger2
+    kapt Libs.dagger_compiler
+    kapt Libs.dagger_android_processor
+    implementation Libs.dagger_android_support
 }
