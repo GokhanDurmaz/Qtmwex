@@ -13,4 +13,3 @@ abstract class ActivityInjectionModule {
     @ContributesAndroidInjector
     abstract fun mainActivityInjector(): MainActivity
 }
-
