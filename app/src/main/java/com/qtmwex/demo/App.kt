@@ -1,7 +1,6 @@
 package com.qtmwex.demo
 
 import com.qtmwex.demo.di.components.DaggerAppComponent
-import dagger.android.AndroidInjector
 import dagger.android.DaggerApplication
 
 /**
