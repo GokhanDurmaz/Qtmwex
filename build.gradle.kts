@@ -7,7 +7,8 @@ buildscript {
     dependencies {
         classpath(Libs.com_android_tools_build_gradle)
         classpath(Libs.kotlin_gradle_plugin)
-        classpath("com.android.tools.build:gradle:4.1.1")
+        classpath(Libs.com_android_tools_build_gradle)
+        classpath(Libs.google_services)
     }
 }
 plugins {
