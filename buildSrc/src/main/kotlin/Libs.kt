@@ -8,52 +8,6 @@ import kotlin.String
  */
 object Libs {
     /**
-<<<<<<< HEAD
-     * https://github.com/google/dagger
-     */
-    const val dagger_android_processor: String = "com.google.dagger:dagger-android-processor:" +
-            Versions.com_google_dagger
-
-    /**
-     * https://github.com/google/dagger
-     */
-    const val dagger_android_support: String = "com.google.dagger:dagger-android-support:" +
-            Versions.com_google_dagger
-
-    /**
-     * https://github.com/google/dagger
-     */
-    const val dagger_compiler: String = "com.google.dagger:dagger-compiler:" +
-            Versions.com_google_dagger
-
-    /**
-     * https://developer.android.com/topic/libraries/architecture/index.html
-     */
-    const val room_compiler: String = "androidx.room:room-compiler:" + Versions.androidx_room
-
-    /**
-     * https://developer.android.com/topic/libraries/architecture/index.html
-     */
-    const val room_runtime: String = "androidx.room:room-runtime:" + Versions.androidx_room
-
-    /**
-     * https://developer.android.com/testing
-     */
-    const val com_android_support_test_runner: String = "com.android.support.test:runner:" +
-            Versions.com_android_support_test_runner
-
-    /**
-=======
->>>>>>> uı-dev
-     * https://developer.android.com/studio
-     */
-    const val databinding_compiler_common: String =
-            "androidx.databinding:databinding-compiler-common:" + Versions.androidx_databinding
-
-    const val viewbinding: String = "androidx.databinding:viewbinding:" +
-            Versions.androidx_databinding
-
-    /**
      * https://kotlinlang.org/
      */
     const val kotlin_annotation_processing_gradle: String =
@@ -146,6 +100,8 @@ object Libs {
      * https://developer.android.com/studio
      */
     const val lint_gradle: String = "com.android.tools.lint:lint-gradle:" + Versions.lint_gradle
+
+    const val viewbinding: String = "androidx.databinding:viewbinding:" + Versions.viewbinding
 
     /**
      * https://developer.android.com/jetpack/androidx

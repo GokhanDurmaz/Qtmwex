@@ -12,16 +12,6 @@ import org.gradle.plugin.use.PluginDependencySpec
  * YOU are responsible for updating manually the dependency version.
  */
 object Versions {
-<<<<<<< HEAD
-    const val com_google_dagger: String = "2.30.1"
-
-    const val androidx_room: String = "2.2.5" // available: "2.2.6"
-
-    const val com_android_support_test_runner: String = "1.0.2"
-=======
-    const val androidx_databinding: String = "4.1.1"
->>>>>>> uı-dev
-
     const val org_jetbrains_kotlin: String = "1.4.21" // available: "1.4.21-2"
 
     const val androidx_navigation: String = "2.3.2"
@@ -43,6 +33,8 @@ object Versions {
     const val espresso_core: String = "3.0.2"
 
     const val lint_gradle: String = "27.1.1"
+
+    const val viewbinding: String = "4.1.1"
 
     const val appcompat: String = "1.2.0"
 
