@@ -1,7 +1,6 @@
 //noinspection GradleCompatible
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
@@ -44,16 +43,21 @@ android {
         exclude 'META-INF/ASL2.0'
         exclude("META-INF/*.kotlin_module")
     }
-    ndkVersion '21.1.6352462'
-}
 
-androidExtensions {
-    experimental = true
+    buildFeatures {
+        viewBinding true
+    }
+
+    ndkVersion '21.1.6352462'
 }
 
 dependencies {
     implementation Libs.kotlin_stdlib_jdk7
     implementation Libs.appcompat
+    implementation Libs.constraintlayout
+    implementation Libs.material
+    implementation Libs.navigation_ui_ktx
+    implementation Libs.navigation_fragment_ktx
     testImplementation Libs.junit
     androidTestImplementation Libs.com_android_support_test_runner
     androidTestImplementation Libs.espresso_core

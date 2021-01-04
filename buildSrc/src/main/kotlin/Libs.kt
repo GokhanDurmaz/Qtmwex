@@ -8,6 +8,83 @@ import kotlin.String
  */
 object Libs {
     /**
+<<<<<<< HEAD
+     * https://github.com/google/dagger
+     */
+    const val dagger_android_processor: String = "com.google.dagger:dagger-android-processor:" +
+            Versions.com_google_dagger
+
+    /**
+     * https://github.com/google/dagger
+     */
+    const val dagger_android_support: String = "com.google.dagger:dagger-android-support:" +
+            Versions.com_google_dagger
+
+    /**
+     * https://github.com/google/dagger
+     */
+    const val dagger_compiler: String = "com.google.dagger:dagger-compiler:" +
+            Versions.com_google_dagger
+
+    /**
+     * https://developer.android.com/topic/libraries/architecture/index.html
+     */
+    const val room_compiler: String = "androidx.room:room-compiler:" + Versions.androidx_room
+
+    /**
+     * https://developer.android.com/topic/libraries/architecture/index.html
+     */
+    const val room_runtime: String = "androidx.room:room-runtime:" + Versions.androidx_room
+
+    /**
+     * https://developer.android.com/testing
+     */
+    const val com_android_support_test_runner: String = "com.android.support.test:runner:" +
+            Versions.com_android_support_test_runner
+
+    /**
+=======
+>>>>>>> uı-dev
+     * https://developer.android.com/studio
+     */
+    const val databinding_compiler_common: String =
+            "androidx.databinding:databinding-compiler-common:" + Versions.androidx_databinding
+
+    const val viewbinding: String = "androidx.databinding:viewbinding:" +
+            Versions.androidx_databinding
+
+    /**
+     * https://kotlinlang.org/
+     */
+    const val kotlin_annotation_processing_gradle: String =
+            "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" +
+            Versions.org_jetbrains_kotlin
+
+    /**
+     * https://kotlinlang.org/
+     */
+    const val kotlin_gradle_plugin: String = "org.jetbrains.kotlin:kotlin-gradle-plugin:" +
+            Versions.org_jetbrains_kotlin
+
+    /**
+     * https://kotlinlang.org/
+     */
+    const val kotlin_stdlib_jdk7: String = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:" +
+            Versions.org_jetbrains_kotlin
+
+    /**
+     * https://developer.android.com/topic/libraries/architecture/index.html
+     */
+    const val navigation_fragment_ktx: String = "androidx.navigation:navigation-fragment-ktx:" +
+            Versions.androidx_navigation
+
+    /**
+     * https://developer.android.com/topic/libraries/architecture/index.html
+     */
+    const val navigation_ui_ktx: String = "androidx.navigation:navigation-ui-ktx:" +
+            Versions.androidx_navigation
+
+    /**
      * https://github.com/google/dagger
      */
     const val dagger_android_processor: String = "com.google.dagger:dagger-android-processor:" +
@@ -52,36 +129,12 @@ object Libs {
             Versions.de_fayard_buildsrcversions_gradle_plugin
 
     /**
-     * https://kotlinlang.org/
+     * http://tools.android.com
      */
-    const val kotlin_annotation_processing_gradle: String =
-            "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" +
-            Versions.kotlin_annotation_processing_gradle
+    const val constraintlayout: String = "androidx.constraintlayout:constraintlayout:" +
+            Versions.constraintlayout
 
-    /**
-     * https://kotlinlang.org/
-     */
-    const val kotlin_android_extensions_runtime: String =
-            "org.jetbrains.kotlin:kotlin-android-extensions-runtime:" +
-            Versions.kotlin_android_extensions_runtime
-
-    /**
-     * https://kotlinlang.org/
-     */
-    const val kotlin_android_extensions: String =
-            "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.kotlin_android_extensions
-
-    /**
-     * https://kotlinlang.org/
-     */
-    const val kotlin_gradle_plugin: String = "org.jetbrains.kotlin:kotlin-gradle-plugin:" +
-            Versions.kotlin_gradle_plugin
-
-    /**
-     * https://kotlinlang.org/
-     */
-    const val kotlin_stdlib_jdk7: String = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:" +
-            Versions.kotlin_stdlib_jdk7
+    const val google_services: String = "com.google.gms:google-services:" + Versions.google_services
 
     /**
      * https://developer.android.com/testing
@@ -98,6 +151,11 @@ object Libs {
      * https://developer.android.com/jetpack/androidx
      */
     const val appcompat: String = "androidx.appcompat:appcompat:" + Versions.appcompat
+
+    /**
+     * https://github.com/material-components/material-components-android
+     */
+    const val material: String = "com.google.android.material:material:" + Versions.material
 
     /**
      * https://developer.android.com/studio

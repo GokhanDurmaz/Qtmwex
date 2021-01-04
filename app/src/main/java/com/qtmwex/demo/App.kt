@@ -1,7 +1,10 @@
 package com.qtmwex.demo
 
 import com.qtmwex.demo.di.components.DaggerAppComponent
+<<<<<<< HEAD
 import dagger.android.AndroidInjector
+=======
+>>>>>>> uı-dev
 import dagger.android.DaggerApplication
 
 /**
